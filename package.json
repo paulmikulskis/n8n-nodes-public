@@ -49,6 +49,7 @@
 	},
 	"dependencies": {
 		"discord.js": "^14.15.3",
+		"eslint": "8.20.0",
 		"ts-results": "^3.3.0",
 		"zod": "^3.23.8"
 	}
