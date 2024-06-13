@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-yungsten",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Custom nodes for n8n by Yungsten Tech",
 	"keywords": [
 		"n8n-community-node-package",
@@ -28,12 +28,14 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/ExampleCredentialsApi.credentials.js",
-			"dist/credentials/HttpBinApi.credentials.js"
+			"dist/credentials/CoinGeckoProApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/ExampleNode/ExampleNode.node.js",
-			"dist/nodes/HttpBin/HttpBin.node.js"
+			"dist/nodes/CGChartHistory/CGChartHistory.node.js",
+			"dist/nodes/DiscordMemberJoin/DiscordMemberJoin.node.js",
+			"dist/nodes/DiscordMessageListener/DiscordMessageListener.node.js",
+			"dist/nodes/RandomNumberGenerator/RandomNumberGenerator.node.js",
+			"dist/nodes/SendDiscordMessage/SendDiscordMessage.node.js"
 		]
 	},
 	"devDependencies": {
